@@ -20,7 +20,7 @@ const App = () => {
         style={styles.image}
         resizeMode="contain"
       />
-      <DefaultButton onPress={showAlert} text="Hola" textSize={29} />
+      <DefaultButton onPress={showAlert} text="Holaxx"textSize={29} />
     </View>
   );
 };

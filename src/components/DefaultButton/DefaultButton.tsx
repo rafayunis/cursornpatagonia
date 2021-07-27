@@ -7,7 +7,7 @@ interface Props {
   additionalStyle?: object;
   onPress: () => void;
   text?: string;
-  textSize?: number,
+  textSize?: number;
 }
 
 const DefaultButton = ({additionalStyle, onPress, text, textSize}: Props) => {
