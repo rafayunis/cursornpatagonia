@@ -1,4 +1,6 @@
 export const colors = {
-  verylightBlue: '#aaf',
-  mainOrange: '#b73',
+  black: '#000000',
+  lightBlue: '#ABCDEF',
+  mainOrange: '#FF7F50',
+  white: '#FFFFFF',
 };
