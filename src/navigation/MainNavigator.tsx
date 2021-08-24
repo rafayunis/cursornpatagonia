@@ -1,7 +1,6 @@
 const {createNativeStackNavigator} = require('@react-navigation/native-stack');
 import React from 'react';
-// import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
+import {ExperimentalScreen} from '../screens';
 import AuthStack from './AuthStack';
 import TabNavigator from './TabNavigator';
 
@@ -13,6 +12,7 @@ const MainNavigator = () => (
     screenOptions={{headerShown: false}}>
     <Stack.Screen name="AuthStack" component={AuthStack} />
     <Stack.Screen name="TabNavigator" component={TabNavigator} />
+    <Stack.Screen name="Experimental" component={ExperimentalScreen} />
   </Stack.Navigator>
 );
 

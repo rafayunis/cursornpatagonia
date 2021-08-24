@@ -14,7 +14,7 @@ export function goToScreen(name: string, params: object = {}) {
 
 export function goBack() {
   if (navigationRef.isReady()) {
-    navigationRef.dispatch(CommonActions.goBAck());
+    navigationRef.dispatch(CommonActions.goBack());
   }
 }
 
